@@ -16,7 +16,7 @@ public class exercicio5 {
 		System.out.println("Escreva quantos dias faz que foi o dia do seu aniversário: ");
 		int dias = sc.nextInt();
 		
-		int dataEmDias = (anos*360) + (meses*30) + dias;
+		int dataEmDias = (anos*365) + (meses*30) + dias;
 		System.out.println("Sua idade em dias é " + dataEmDias);
 		sc.close();
 	}

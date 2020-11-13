@@ -11,9 +11,9 @@ public class exercicio6 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escreva sua idade em dias: ");
 		int idade = sc.nextInt();
-		int anos = idade / 360;
-		int meses = (idade % 360)/30;
-		int dias = (idade % 360) % 30;
+		int anos = idade / 365;
+		int meses = (idade % 365)/30;
+		int dias = (idade % 365) % 30;
 		System.out.println("Sua idade é " + anos+ " anos " + meses + " meses " + dias + " dias");
 		sc.close();
 	}
