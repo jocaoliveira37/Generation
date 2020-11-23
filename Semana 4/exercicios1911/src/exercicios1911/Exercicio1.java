@@ -9,6 +9,7 @@ public class Exercicio1 {
 		int[] x = new int[10];
 		int soma = 0, contador = 0, maior = 0, vezes = 0;
 		Random dado = new Random();
+		
 		for (int y = 0; y < 10; y++) {
 			x[y] = dado.nextInt(6);
 			if ((x[y] + 1) > maior) {
