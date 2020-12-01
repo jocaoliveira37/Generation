@@ -1,0 +1,39 @@
+-- create database db_locadora;
+-- create table tb_filmes
+-- (
+-- 	id bigint(20) auto_increment,
+-- 	nome varchar(20) not null,
+-- 	categoria varchar(20),
+-- primary key(id)
+--  )
+  
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Senhor dos aneis","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("Harry Potter","Ação");
+-- insert into tb_filmes(nome, categoria) Values ("500 dias com ela","comédia romantica");
+
+-- select * from tb_filmes where nome like "%s%";
+-- select * from tb_filmes where categoria like "%comédia romantica%";
+-- delete from tb_filmes where id = 6;
+-- update tb_filmes set nome = "Identidade bourne" where id = 7;

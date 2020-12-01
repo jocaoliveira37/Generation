@@ -1,0 +1,56 @@
+-- create database db_alunos;
+-- create table tb_sala
+-- (
+-- 	id bigint(20) auto_increment,
+--  nome varchar(20) not null,
+--  idade bigint(20),
+-- 	sexo varchar(20),
+-- 	primary key(id)
+--  )
+
+-- insert into tb_sala(nome, idade, sexo) Values ("José", 30 ,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Ayrton", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Mario", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Ricardo", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Eduardo", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Paulo", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Wellington", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Moises", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Sergio", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Wesley", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Matheus", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Matheus D", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Antonio", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Patricia", 30,"Feminino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Leticia", 27,"Feminino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Rita", 26,"Feminino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Maria", 25,"Feminino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Leonardo", 30,"Masculino");
+-- insert into tb_sala(nome, idade, sexo) Values ("Suellen", 35,"Feminino");
+
+-- Alter table tb_sala
+-- add nota2 decimal(10,2);
+-- update tb_sala set nota2 = 8 where id = 1;
+-- update tb_sala set nota2 = 6 where id = 2;
+-- update tb_sala set nota2 = 6 where id = 3;
+-- update tb_sala set nota2 = 6 where id = 4;
+-- update tb_sala set nota2 = 7 where id = 5;
+-- update tb_sala set nota2 = 8 where id = 6;
+-- update tb_sala set nota2 = 9 where id = 7;
+-- update tb_sala set nota2 = 5 where id = 8;
+-- update tb_sala set nota2 = 8 where id = 10;
+-- update tb_sala set nota2 = 9 where id = 11;
+-- update tb_sala set nota2 = 8 where id = 12;
+-- update tb_sala set nota2 = 9 where id = 13;
+-- update tb_sala set nota2 = 2 where id = 14;
+-- update tb_sala set nota2 = 4 where id = 15;
+-- update tb_sala set nota2 = 6 where id = 16;
+-- update tb_sala set nota2 = 6 where id = 17;
+-- update tb_sala set nota2 = 4 where id = 18;
+-- update tb_sala set nota2 = 6 where id = 19;
+-- update tb_sala set nota2 = 6 where id = 20;
+
+-- select * from tb_sala where nota2 >= 7;
+-- select * from tb_sala where nota2 <= 7;
+-- delete from tb_sala where id = 6;
+-- update tb_sala set nome = "José" where id = 7;
