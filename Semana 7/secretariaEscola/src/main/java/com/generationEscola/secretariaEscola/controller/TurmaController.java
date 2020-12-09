@@ -24,7 +24,7 @@ import com.generationEscola.secretariaEscola.repository.TurmaRepository;
 @CrossOrigin("*")
 public class TurmaController {
 	
-	@Autowired
+	@Autowired // Não quero injetar dependência!!!
 	private TurmaRepository repository;
 	
 	@GetMapping
