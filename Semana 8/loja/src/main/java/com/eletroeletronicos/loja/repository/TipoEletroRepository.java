@@ -8,4 +8,5 @@ import com.eletroeletronicos.loja.model.TipoEletro;
 
 public interface TipoEletroRepository extends JpaRepository<TipoEletro, Long> {
 	public List<TipoEletro> findAllByDescricaoContainingIgnoreCase(String descricao);
+	
 }
