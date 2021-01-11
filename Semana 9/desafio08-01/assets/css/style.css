@@ -1,0 +1,38 @@
+/* menu*/
+#menu li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+#menu li a {
+    text-decoration: none;
+    color:black ;
+}
+#menu li a:hover{
+    color: gray;
+}
+/*body */
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+.justify{
+    text-align: justify;
+}
+.p-30 {
+    padding: 30px;
+}
+.center {
+    text-align: center;
+}  
+.color-logo{
+    text-decoration: none;
+    color:black ;
+}
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
