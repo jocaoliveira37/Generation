@@ -1,0 +1,18 @@
+.center {
+    text-align: center;
+}  
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.tm-social{
+    width: 150px;
+    height: 150px;
+}
